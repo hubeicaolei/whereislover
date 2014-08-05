@@ -9,7 +9,7 @@ import javax.ws.rs.PathParam;
 
 import com.cao.whereislover.domain.Lover;
 
-@Path("/")
+@Path("/rest/")
 public class LoverPosition {
 	
 	@GET
@@ -21,7 +21,7 @@ public class LoverPosition {
 	}
 	
 	@GET
-	@Path("/")
+	@Path("/rest/")
 	public String hello()
 	{
 		return "hello rest";
